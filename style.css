@@ -1,0 +1,72 @@
+#JumboTitle {
+  background-color: white;
+  border: 2px solid gray;
+}
+#jumboPower {
+  background-image: url("./assets/images/powerball.jpg");
+  background-size: cover;
+  border: 2px solid gray;
+}
+
+#jumboMega {
+  background-image: url("./assets/images/megamillions.jpg");
+  background-size: cover;
+  border: 2px solid gray;
+}
+
+#jumboSuper {
+  background-image: url("./assets/images/superlotto.jpg");
+  background-size: cover;
+  border: 2px solid gray;
+}
+
+#jumboFantasy {
+  background-image: url("./assets/images/fantasyFive.jpg");
+  background-size: cover;
+  border: 2px solid gray;
+}
+
+.num-style {
+  height: 40px;
+  width: 40px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+}
+
+#powerBall{
+  display: inline-flex;
+}
+
+#megaMillions{
+  display: inline-flex;
+}
+
+#superLotto{
+  display: inline-flex;
+}
+
+#fantasyFive{
+  display: inline-flex;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+}
+
+.mega{
+  color: white;
+}
